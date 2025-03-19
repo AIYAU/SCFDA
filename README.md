@@ -41,11 +41,9 @@ datasets
 │   ├── mask_train.mat
 │   └── mask_test.mat
 ├── salinas
-│   ├── salinas_corrected.mat
-│   └── salinas_gt.mat
-└── WHU-Hi-LongKou
-    ├── WHU_Hi_LongKou.mat
-    └── WHU_Hi_LongKou_gt.mat
+    ├── salinas_corrected.mat
+    └── salinas_gt.mat
+
 ```
 
 ## Pretrain model
@@ -69,4 +67,4 @@ pretrain-model
 1. Download the required source and target datasets and move to folder `datasets`.
 
 2. Download the required Base Bert pre-trained model and move to folder `pretrain-model`.
-3. Run `train.py`. 
+3. Run `traininfo.py`. 
